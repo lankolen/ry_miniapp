@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view >
+  <view class="nav">
+    <view class="navLeft" style="">
+       <navigator url="/pages/business/business" hover-class="navigator-hover">
+        <text  class="cuIcon-location lg text-black" style="marginl-left:10rpx;"></text>
+        <text style="font-size: 14px;">大连</text>
+      </navigator>
+    </view>
+    <view class="navCenter" style="color:red;">
+      易建·哈酒网
+    </view>
+  </view>
+  <view class="container">
+    <view class="header_swiper">
+      <swiper indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" 
+        circular="{{circular}}" 
+        vertical="{{vertical}}" 
+        interval="{{interval}}" 
+        duration="{{duration}}" 
+        previous-margin="{{previousMargin}}px" 
+        next-margin="{{nextMargin}}px">
+   
+    <block wx:for='{{images}}' wx:key='index'>
+      <swiper-item>
+        <image src='{{item}}' mode='aspectFill' class='swiper-item-images'/>
+      </swiper-item>
+    </block>
+</swiper>
+    </view>
+    <view class="userinfo usText">
+      <view class="usText">
+      <view style="position: relative;width:50rpx"><image src="/images/true.png" class="img"></image></view>
+        免费送货上门(5箱内自提)
+      </view>
+       <view class="usText">
+       <view style="position: relative;width:50rpx"><image src="/images/true.png" class="img"></image></view>
+        活动仅限大连、邯郸地区
+      </view>
+    </view>
+  </view>
+</view>
+
+<image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/1.jpg" class="img_index img_first"></image>
+<image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/2.jpg" class="img_index"></image>
+<image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/3.jpg" class="img_index"></image>
+<image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/4.jpg" class="img_index"></image>
+<image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/5.jpg" class="img_index"></image>
+<image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/6.jpg" class="img_index"></image>
+
+<navigator url="/pages/detail/detail">
+  <button bindtap="btn_buy" class="btn_buy">点击购买</button>
+</navigator>

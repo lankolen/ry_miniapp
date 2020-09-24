@@ -1,0 +1,49 @@
+/* pages/shopDetail/shopDetail.wxss */
+.page{
+  border-top:  1px solid #ccc;
+}
+.header{
+  height: 270rpx;
+  padding: 0rpx 40rpx;
+  font-size: 12px;
+  line-height: 60rpx;
+  display: flex;
+}
+.img{
+  height: 305rpx;
+  width: 666rpx;
+  background: #575ceb;
+}
+.left{
+  flex:1;
+}
+.right{
+  width: 150rpx;
+}
+.right view{
+  width: 141rpx;
+  height: 64rpx;
+  margin-top: 95rpx;
+  border-radius:12rpx;
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+  text-align: center;
+  line-height: 64rpx;
+  color:#fff;
+}
+.center,.footer{
+  padding: 0rpx 40rpx;
+  height: 375rpx;
+  line-height: 60rpx;
+}
+.btn{
+  height: 98rpx;
+  line-height: 98rpx;
+  width: 635rpx;
+  text-align: center;
+  margin:0rpx 56rpx;
+  margin-top: 50rpx;
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+  border-radius:12rpx;
+  font-size: 35rpx;
+  color:#fff;
+}

@@ -1,0 +1,31 @@
+<!--pages/myDetail/myDetail.wxml-->
+<view class="page">
+  <view class="list">
+    <view class="listLeft">头像</view>
+    <view class="listRight">
+      <view class="imgName"></view>
+    </view>
+  </view>
+  <view class="list" style="border-top:0px;">
+    <view class="listLeft">昵称</view>
+    <view class="listRight">
+      WANG MR
+    </view>
+  </view>
+  <view class="list" style="border-top:0px;">
+    <view class="listLeft">手机号</view>
+    <view class="listRight" style="flex:1;margin-right:0rpx;">
+       <text>185****2164</text>
+    </view>
+    <view style="width:85rpx;margin-right: 50rpx;">
+      <view class="update">修改</view>
+    </view>
+  </view>  
+  <view class="list" style="border-top:0px;">
+    <view class="listLeft">推荐人</view>
+    <view class="listRight">
+      <text>王先森</text>
+      <view class="imgName" style="width:60rpx;height:60rpx;margin-top:40rpx;margin-left:20rpx;"></view>
+    </view>
+  </view>    
+</view>

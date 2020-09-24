@@ -1,0 +1,57 @@
+/* pages/MemberDetail/MemberDetail.wxss */
+.container{
+  background:#fff;
+}
+.list{
+  width: 100%;
+  height: 116rpx;
+  display: flex;
+  padding:0rpx 20rpx;
+  line-height: 45rpx;
+}
+.container{
+  margin-top: 0rpx;
+}
+.contNav{
+  width: 100%;
+  display: flex;
+  padding: 0rpx 20rpx;
+  line-height: 88rpx;
+  height: 88rpx;
+  font-size: 13px;
+}
+.contNavLeft{
+  text-align:left;
+  font-weight: 600;
+  flex: 1;
+}
+.contNavRight{
+  text-align:right;
+  flex: 1;
+  color: #6b6b6b;
+}
+.contColor{
+  color: #4d71f5;
+  font-size: 18px;
+}
+.listImg{
+  width: 80rpx;
+  height: 75rpx;
+  background: #4d71f5;
+  margin-right: 35rpx;
+  margin-top: 22rpx;
+}
+.listRight{
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding-left: 10rpx;
+  padding-right: 20rpx;
+}
+.listRight >.contNavRight{
+  line-height: 116rpx;
+  font-size: 15px;
+}
+.time{
+  color: #6b6b6b;
+}

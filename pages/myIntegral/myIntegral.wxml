@@ -1,0 +1,25 @@
+<!--pages/myIntegral/myIntegral.wxml-->
+<view >
+  <view class="container">
+      <view class="list">
+        <view style="flex:1;">
+          <view class="listTitle">购买北大荒原麦啤酒5箱</view>
+          <view style="color:#6b6b6b">2020-07-01 17:02</view>
+        </view>
+        <view style="flex:1;text-align:right;">
+          <view class="listTitle colorText">支付45.00元</view>
+          <view style="color:#6b6b6b" >获得：<text class="colorText">-3</text> 积分</view>
+        </view>
+      </view>
+      <view class="list">
+        <view style="flex:1;">
+          <view class="listTitle">兑换北大荒原麦啤酒1箱</view>
+          <view style="color:#6b6b6b">2020-07-01 17:02</view>
+        </view>
+        <view style="flex:1;text-align:right;">
+          <view class="listTitle colorText">支付5.0积分</view>
+          <view style="color:#6b6b6b" >获得：<text class="colorRed">+3</text> 积分</view>
+        </view>
+      </view>
+  </view>
+</view>

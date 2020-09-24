@@ -1,0 +1,9 @@
+<!--pages/distribution/distribution.wxml-->
+<view class="pages">
+    <view style="width:100%;padding:0rpx 4rpx;">
+      <search></search>
+      <view class="center">
+        <list></list>
+      </view>        
+    </view>
+</view>

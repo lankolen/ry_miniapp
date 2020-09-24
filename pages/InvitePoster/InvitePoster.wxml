@@ -1,0 +1,30 @@
+<!--pages/InvitePoster/InvitePoster.wxml-->
+<view class="page">
+  <view style="" class="header">
+    <view class="swiperLeft">
+      <view >
+        <text class="cuIcon-back lg text-black" style="font-size:50rpx;"></text>
+      </view>
+    </view>
+    <view class="swiper">
+      <image src="/images/Poster.png"></image>
+    </view>
+    <view class="swiperRight">
+       <view>
+        <text class="cuIcon-right lg text-black" style="font-size:50rpx;"></text>
+      </view>
+    </view>
+  </view>
+  <view class="small">
+    <view class="smallImage smallRight"><image src="/images/Poster.png"></image></view>
+    <view class="smallImage smallRight"><image src="/images/Poster.png"></image></view>
+    <view class="smallImage smallRight"><image src="/images/Poster.png"></image></view>
+    <view class="smallImage smallRight"><image src="/images/Poster.png"></image></view>
+    <view class="smallImage smallRight"><image src="/images/Poster.png"></image></view>
+    <view class="smallImage"><image src="/images/Poster.png"></image></view>
+  </view>
+  <view class="footer">
+    <view class="btn witer">保存海报</view>
+    <view class="btn">分享好友</view>
+  </view>
+</view>

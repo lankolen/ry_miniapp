@@ -1,0 +1,19 @@
+<!--pages/component/welfare/fareList.wxml-->
+<view>
+  <view class="cont"></view>
+  <view style="height:115rpx;" class="list">
+    <view style="flex:1.5">
+      <view class="title"> 智能法式四门冰箱 </view>
+      <view style="display:flex;color:#bbb">
+        <view>干湿分区</view>
+        <view class="line">|</view>
+        <view>风冷无霜</view>
+        <view class="line">|</view>
+        <view>米家APP</view>
+      </view>
+    </view>
+    <view style="flex:0.5;line-height:115rpx;text-align:right;margin-right:10rpx;">
+      <text class="text">2888</text>积分
+    </view>
+  </view>
+</view>

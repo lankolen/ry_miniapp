@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/shop/shop",
+    "pages/welfare/welfare",
+    "pages/business/business",
+    "pages/succeed/succeed",
+    "pages/distribution/distribution",
+    "pages/pay/pay",
+    "pages/detail/detail",
+    "pages/shopDetail/shopDetail",
+    "pages/InvitePoster/InvitePoster",
+    "pages/MemberDetail/MemberDetail",
+    "pages/Memberrenewal/Memberrenewal",
+    "pages/myIntegral/myIntegral",
+    "pages/welfare/index",
+    "pages/friend/friend",
+    "pages/myDetail/myDetail",
+    "pages/application/application",
+    "pages/myOrder/myOrder",
+    "pages/site/site",
+    "pages/site/address",
+    "pages/site/location",
+    "pages/my/invite",
+    "pages/my/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "易建·哈酒网",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#333",
+    "list": [
+      {
+        "iconPath":"/images/home.png",
+        "selectedIconPath":"/images/home_action.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath":"/images/shop.png",
+        "selectedIconPath":"/images/shop_action.png",
+        "pagePath": "pages/shop/shop",
+        "text": "店铺"
+      },
+      {
+        "iconPath":"/images/welfare.png",
+        "selectedIconPath":"/images/welfare_action.png",
+        "pagePath": "pages/welfare/welfare",
+        "text": "福利"
+      },
+      {
+        "iconPath":"/images/per.png",
+        "selectedIconPath":"/images/per_action.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

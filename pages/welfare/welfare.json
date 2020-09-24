@@ -1,0 +1,7 @@
+{
+  "navigationStyle":"custom",
+  "usingComponents": {
+    "fareList": "/pages/component/welfare/fareList",
+    "Dialog": "/pages/component/Dialog/Dialog"
+  }
+}

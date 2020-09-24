@@ -1,0 +1,35 @@
+/* pages/component/shopList/search.wxss */
+@import "/demo/colorui/icon.wxss";
+.list{
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+  padding:26rpx;
+  padding-top: 28rpx;
+  padding-right: 18rpx;
+  background-color: #fff;      
+  display: flex;          
+  justify-content:space-between;
+}
+.searchLeft{
+  width: 461rpx;
+  background: #f2f2f2;
+  border-radius: 11rpx;
+  display: flex;
+  line-height: 62rpx;
+}
+.searchIcon{
+  margin:0rpx 10rpx;
+}
+.searchRight{
+  display: flex;
+  width: 218rpx;
+  border-radius: 11rpx;
+  border:1px solid #7c7bfa;
+  height: 62rpx;
+  line-height: 62rpx;
+}
+.searchRight>view{flex:1;text-align: center;}
+.rightBtn{
+  color: #fff;
+  background: #557bed;
+}

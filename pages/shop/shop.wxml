@@ -1,0 +1,49 @@
+<!--pages/shop/shop.wxml-->
+<view >
+  <view class="nav">
+    <view class="navLeft"></view>
+    <view class="navCenter" style="">配送站</view>
+  </view>
+  <view class="container">
+      <view style="width:100%;padding:0rpx 4rpx;">
+        <search></search>
+        
+        <!-- 配送 -->
+        <view class="list" style="height:176rpx;" wx:for="{{list}}" wx:key="id">
+          <view>
+            <view class="Header"> 
+              <view>
+                <view class="headerImg">
+                  <image class='poster' src='https://beer.8v8a.com/Public/cssjsimages/images/shop/{{item.sh_img}}'></image>
+                </view>
+              </view>
+              <view style="flex:1;">
+                <view class="headerText">{{item.sh_addr}}
+                  <text style='color:red'>{{item.sh_index}}号店</text>
+                  {{item.sh_addr_detail}}
+                </view>
+                <view style="display:flex;font-size:600;margin-top: 20rpx;">
+                  <view class="cuIcon-time lg text-gray searchIcon"></view>
+                  <text style="margin-left:15rpx;">{{item.sh_open}}-{{item.sh_close}}</text>
+                </view>
+              </view>
+            </view>
+            <view class="site">
+              <text>{{item.sh_name}}</text>
+              <navigator url="/pages/shopDetail/shopDetail" hover-class="navigator-hover">
+              <view class="color-text" style="margin-left:10rpx;">查看详情</view>
+              </navigator>
+            </view>
+          </view>
+          <view class="Footer">
+            <view>
+              <view class="phoneBtn shadow" catchtap="toCall" data-value="{{item.sh_tel}}">拨打电话
+              </view>
+              <view class="headerText" style="font-size:11px;text-align:left;">距离您 800m</view>
+            </view> 
+          </view>
+        </view>
+      </view>
+  </view>
+</view>
+

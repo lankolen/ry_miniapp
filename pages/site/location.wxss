@@ -1,0 +1,92 @@
+/* pages/site/location.wxss */
+.contain{
+  margin-top: 0rpx;
+  margin-bottom: 177rpx;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+.list{
+  height: 235rpx;
+  border-top:13rpx solid #f2f2f2;
+  background: #fff;
+  width: 100%;
+  padding: 0rpx 30rpx;
+}
+.Header{
+  height: 139rpx;
+  border-bottom: 1px solid #f2f2f2;
+  line-height: 50rpx;
+  padding-top: 20rpx;
+}
+.title{
+  font-size:14px;
+}
+.footer{
+  display: flex;
+  line-height: 82rpx;
+  color:#666666;
+}
+.footLeft{
+  flex:1;
+}
+.footRight{
+  flex:1;
+  text-align:right;
+  margin-right:40rpx;
+  display: flex;
+  flex-direction:row-reverse;
+}
+.line{
+  height:30rpx;
+  width:1px;
+  margin:23rpx 27rpx 27rpx 23rpx;
+  background: #e6e6e6;
+}
+.nav{
+  width:100%;
+  height:89rpx;
+  display:flex;
+  justify-content:center;
+  line-height: 45rpx;
+  padding-top: 20rpx;
+  position: relative;
+}
+.navCent{
+  width:354rpx;
+  height: 45rpx;
+  border-radius: 16rpx;
+  background: #4e6ff4;
+  border:1px solid #318cff;
+  display: flex;
+}
+.navText{
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  flex:1;
+}
+.navClick{
+  width: 100%;
+  border-radius: 16rpx;
+  height: 100%;
+  background: #fff;
+  color: #318cff;
+}
+.foot{
+  width: 100%;
+  padding:0rpx 56rpx;
+  padding-bottom: 79rpx;
+  bottom: 0rpx;
+  position: fixed;
+}
+.foot .btn{
+  border-radius: 30rpx;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  background: #16bbff;
+  font-size: 18px;
+  color: #fff;
+  width: 634rpx;
+}

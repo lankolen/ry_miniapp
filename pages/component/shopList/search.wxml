@@ -1,0 +1,11 @@
+<!--pages/component/shopList/search.wxml-->
+<view class="list">
+  <view class="searchLeft">
+      <view class="cuIcon-search lg text-gray searchIcon"></view>
+      <input placeholder="请输入配送店名称（可搜索小区名称)" style="flex:1;font-size:24rpx;height:100%"></input>
+  </view>
+  <view class="searchRight">
+    <view class="rightBtn">列表</view>
+    <view>地图</view>
+  </view>
+</view>

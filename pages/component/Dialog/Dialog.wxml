@@ -1,0 +1,33 @@
+<!--pages/component/Dialog/Dialog.wxml-->
+<!-- show 显示 -->
+<view class="cu-modal ">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">会员规则</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl" style="font-size:12px">
+      <view style="text-align: left;">会员服务费收费规则：</view>
+      <view style="text-align: left;">按照会员开通服务，依次划分为普通用户、VIP1、VIP2、VIP3</view>
+      <view style="text-align: left;">普通用户，仅享受易建网推荐会员收益，无法直接购买</view>
+      <view style="text-align: left;">易建哈酒网产品只对VIP会员享有。</view>
+      <view style="text-align: left;">VIP1:开通条件49会员，可购买50箱啤酒</view>
+      <view style="text-align: left;">VIP2:开通条件99会员，可购买130箱啤酒</view>
+      <view style="text-align: left;">VIP3:开通条件199会员，可购买300箱啤酒</view>
+      <view style="text-align: left;">注:  开通600会员享有VIP3级别待遇</view>
+      <view style="text-align: left;">会员积分说明：</view>
+      <view style="text-align: left;">会员积分，是指用户在易建哈酒网开通会员后成功购物即可</view>
+      <view style="text-align: left;">累计金额获得的积分。消费1元积1分。</view>
+      <view style="text-align: left;">如何获得会员积分：</view>
+      <view style="text-align: left;">成功购买商品，将获得与商品价格相应数量的会员积分；</view> 
+      <view style="text-align: left;">如：购买产品价格200.00，将获得200积分。</view> 
+    </view>
+    <view class="cu-bar bg-white justify-end" bindtap="hideModal">
+      <view style="flex:1;">
+        关闭
+      </view>
+    </view>
+  </view>
+</view>

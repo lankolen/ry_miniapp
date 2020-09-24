@@ -1,0 +1,8 @@
+{
+  "component": true, 
+  "usingComponents": {
+    "list": "/pages/component/shopList/list",
+    "search": "/pages/component/shopList/search"
+  },
+  "navigationBarTitleText": "配送方式"
+}

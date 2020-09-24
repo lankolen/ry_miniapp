@@ -1,0 +1,21 @@
+<!--pages/MemberDetail/MemberDetail.wxml-->
+<view >
+  <view class="container">
+      <view class="contNav"> 
+          <view class="contNavLeft">会员明细</view>
+          <view class="contNavRight">剩余：<text class="contColor">150</text> 箱 </view>
+      </view>
+      <view class="list">
+        <view class="listImg"></view>
+        <view class="listRight">
+          <view class="contNavLeft">
+            <view>开通49元会员</view>
+            <view class="time">02-17</view>
+          </view>
+          <view class="contNavRight contColor">
+            +哈酒 50箱
+          </view>
+        </view>
+      </view>
+  </view>
+</view>

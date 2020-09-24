@@ -1,0 +1,47 @@
+<!--pages/Memberrenewal/Memberrenewal.wxml-->
+<view class="pages">
+  <view class="heder"> 开通服务</view>
+  <view class="center">
+    <view>
+      <view style="display:flex;">
+        <view class="list listRight listHover">
+            <view class="num">199元 
+              <view class="radio">
+                <view class="cuIcon-check lg text-gray" style="color:#2d8eff;font-size:12px"></view>
+              </view>
+            </view>
+          <view>缴费获得</view>
+          <view class="listTitle">会员价够300箱资格</view>
+        </view>
+        <view class="list listRight">
+          <view>
+            <view class="num">99元 
+              <view class="radio"></view>
+            </view>
+          </view>
+          <view>缴费获得</view>
+          <view class="listTitle">会员价够300箱资格</view>
+        </view>
+        <view class="list">
+          <view>
+            <view class="num">49元 
+              <view class="radio"></view>
+            </view>
+          </view>
+          <view>缴费获得</view>
+          <view class="listTitle">会员价够300箱资格</view>
+        </view>
+      </view>
+      <view class="centFooter">开通服务获得会员价购买资格、可累计叠加。</view>
+    </view>
+  </view>
+  <view class="middle">
+    <view>支付方式</view>
+    <view>
+      <image src='/images/weixi.png' style="width:286rpx;height:161rpx;" class="weixi"></image>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="btn">立即支付</view>
+  </view>
+</view>

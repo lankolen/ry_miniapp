@@ -1,0 +1,72 @@
+<!--pages/my/detail.wxml-->
+<view class="pages">
+  	<view class="navlist">
+			<view class="navflex">
+        <view>全部订单</view>
+      </view>
+			<view class="navflex">
+        <view>待付款</view>
+      </view>
+			<view class="navflex">
+        <view class="nav_click">待收货</view>
+      </view>
+			<view class="navflex">
+        <view>已完成</view>
+      </view>
+		</view>
+    <navigator url="/pages/detail/detail" hover-class="navigator-hover">
+      <view class="listBox">
+        <view class="listTitle"> 
+          <view style="flex:1;">待付款</view>
+          <view style="">
+            <text>剩余支付时间</text>
+            <text style="color:red;margin-left:15px;">13天23小时59分</text>
+          </view>
+        </view>
+        <view class="listCenter">
+          <view class="listLeft">
+            <view class="leftTitle">北大荒龙垦麦芽精酿</view>
+            <view class="leftText" style="margin-top:20rpx;">下单时间 20-07-07 18:44</view>
+            <view class="leftText" style="margin-top:8rpx">规格500ml*9瓶/箱</view>
+            <view class="leftNum">共1件商品</view>
+            <view class="btn">取消订单</view>
+          </view>
+          <view class="listRight">
+            <view class='listImg'></view>
+            <view class="rightNum">
+              <text>小计</text>
+              <text style="color:red;margin-left:15px;">15.00元</text>
+            </view>
+            <view class="colorBtn">去支付</view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+
+    <view class="listBox">
+			<view class="listTitle"> 
+				<view style="flex:1;">待收货</view>
+				<view style="">
+          <text>剩余支付时间</text>
+          <text style="color:red;margin-left:15px;">13天23小时59分</text>
+        </view>
+			</view>
+			<view class="listCenter">
+				<view class="listLeft">
+					<view class="leftTitle">北大荒龙垦麦芽精酿</view>
+					<view class="leftText" style="margin-top:20rpx;">下单时间 20-07-07 18:44</view>
+					<view class="leftText" style="margin-top:8rpx">规格500ml*9瓶/箱</view>
+          <view class="leftNum">共1件商品</view>
+					<view class="btn">取消订单</view>
+				</view>
+				<view class="listRight">
+					<view class='listImg'></view>
+          <view class="rightNum">
+            <text>小计</text>
+            <text style="color:red;margin-left:15px;">15.00元</text>
+          </view>
+					<view class="paidBtn">已支付</view>
+				</view>
+			</view>
+		</view>    
+</view>

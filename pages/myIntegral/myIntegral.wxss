@@ -1,0 +1,25 @@
+/* pages/myIntegral/myIntegral.wxss */
+.container{
+  margin-top: 0rpx;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+.list{
+  width: 100%;
+  height: 126rpx;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding:20rpx 25rpx;
+  line-height: 45rpx;
+}
+.listTitle{
+  font-size: 14px;
+}
+.colorText{
+  color: #5267ef;
+}
+.colorRed{
+  color: red;
+}

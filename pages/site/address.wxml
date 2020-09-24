@@ -1,0 +1,21 @@
+<!--pages/site/address.wxml-->
+<view class="pages">
+  <view class="list">
+    <view>收 货 人 :</view>
+    <input placeholder="请输入收货人姓名"></input>
+  </view>
+  <view class="list">
+    <view>手机号码:</view>
+    <input placeholder="请输入手机号码"></input>
+  </view>
+  <view class="list">
+    <view>所在地区:</view>
+    <view style="flex:1;">
+      <text class="cuIcon-right lg text-gray" style="float:right;" ></text>
+    </view>    
+  </view>   
+  <view class="list" style="height:122rpx">
+    <view>设置地址：</view>
+    <textarea class="listInput" placeholder-class="inputColor" placeholder="如：街道、门牌号、小区、楼栋号、单元等"></textarea>
+  </view>
+</view>

@@ -1,0 +1,115 @@
+<!--pages/pay/pay.wxml-->
+<!-- 配送 -->
+<!-- <view class="pages">
+  <view class="header">
+    <view class="headertext">确认配送订单</view>
+    <view>收货人： 王佳</view>
+    <view>收货地址：大连市沙河口区浪花街43号1单元703</view>
+    <view>收货电话：18504212164</view>
+    <view style="display:flex;margin-top:15rpx;">
+      <view class="btn gray btnright">完成确认</view>
+      <view class="btn blue">更改地址</view>
+    </view>
+  </view>
+  <view class="center">
+    <view class="time">
+      <view>剩余支付时间</view>
+      <view class="timeText">23小时59分</view>
+    </view>
+    <view class="pay">
+      <view class="list">
+        <view class="listleft">
+          <view class="payRadius"></view>
+          <view style="margin-left:30rpx">微信支付</view>
+        </view>
+        <view class="listRight">
+          <view class="rightText"></view>
+          <view class="radius rdio"></view>
+        </view>
+      </view>
+      <view class="list">
+        <view class="listleft">
+          <view class="payRadius">
+
+          </view>
+          <view style="margin-left:30rpx">账户余额</view>
+        </view>
+        <view class="listRight">
+          <view class="rightText">45,554.00元</view>
+          <view class="radius"></view>
+        </view>
+      </view>
+      <view class="list">
+        <view class="listleft">
+          <view class="payRadius">
+            <image style="height:100%;width:100%;"></image>
+          </view>
+          <view style="margin-left:30rpx">积分</view>
+        </view>
+        <view class="listRight">
+          <view class="rightText">45,555分</view>
+          <view class="radius"></view>
+        </view>
+      </view>         
+    </view>
+  </view>
+  <view class="midde">
+    <text> <text class="cuIcon-infofill lg text-black"></text> 请点击确认地址，方可付款</text>
+  </view>
+  <view class="footer">
+    <view  style='flex:1; padding-left:50rpx'>
+      <view class="foottext" style="margin-top:12rpx">实付金额</view>
+      <view style="font-size:34rpx">￥2999.00</view>
+    </view>
+    <navigator class="footerBtn" url="/pages/succeed/succeed" hover-class="navigator-hover">
+      <view class="footerBtn linear">去付款</view>
+    </navigator>
+  </view>
+</view> -->
+<!-- 自提 -->
+<view class="pages">
+  <view class="header">
+    <view class="headertext">确认自提订单</view>
+    <view>配送站： 金地艺境博艺南园4号店1号楼26-2</view>
+    <view>店铺名称：邹立国火锅煎烤超市</view>
+    <view>收货电话：18504212164</view>
+    <view style="display:flex;margin-top:15rpx;">
+      <view class="btn linear btnright" style="color:#fff;">确认门店</view>
+      <view class="btn blue">更改门店</view>
+    </view>
+  </view>
+  <view class="center">
+    <view class="time">
+      <view>剩余支付时间</view>
+      <view class="timeText">23小时59分</view>
+    </view>
+    <view class="pay">
+      <view style="height:150rpx;display:flex;justify-content:center;">
+        <view >
+          <image src="/images/app.png" style="height:119rpx;width:119rpx"></image>
+        </view>
+        <view>
+          <image src="/images/Wechatpay.png" style="height:122rpx;width:263rpx"></image>
+        </view>
+      </view> 
+      <view ><text>易建网仅限微信支付</text></view>      
+    </view>
+  </view>
+  <view class="midde">
+    <view>
+      <text> <text class="cuIcon-infofill lg text-black"></text> 请点击确认地址，方可付款</text>
+    </view>
+    <view style="padding-top:20rpx;">
+       <text>(为了更好的为了您服务，请谨记选择自提门店)</text>
+    </view>
+  </view>
+  <view class="footer">
+    <view  style='flex:1; padding-left:50rpx'>
+      <view class="foottext" style="margin-top:12rpx">实付金额</view>
+      <view style="font-size:34rpx">￥2999.00</view>
+    </view>
+    <navigator class="footerBtn" url="/pages/succeed/succeed" hover-class="navigator-hover">
+      <view class="footerBtn gray ">去付款</view>
+    </navigator>
+  </view>
+</view>

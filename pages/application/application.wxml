@@ -1,0 +1,39 @@
+<!--pages/application/application.wxml-->
+<view class="pages">
+  <view class="header">
+    <view class="headDack">
+      <image src="/images/beijing.png" class="beijing" style=""></image>
+      <view class="headTitle">可提现金额</view>
+      <view class="headNum">￥<text class="num">1400.00</text></view>
+    </view>
+    <view class="headCenter">
+      <view style="flex:1;">总收入：5000.00元</view>
+       <view style="flex:1;">已提现：3000.00元</view>
+    </view>
+    <view class="name">
+      <view>提现金额</view>
+       <view style="display:flex;margin-top:40rpx;line-height:50rpx;">
+        <text style="font-size:37rpx">￥</text>
+        <input placeholder="请输入提现金额"></input>
+        <text>全部提现</text>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="footCenter">
+      <view>提现服务费：0.00元</view>
+       <view>实际到账：0.00元</view>
+    </view>
+    <view class="btn">立即申请</view>
+    <view class="detail">
+      <view>提现说明:</view>
+      <view>1、提现申请成功后,提现金额预计在1~2个工作日以微信红包的形式发送到您的微信账户上，提现请提前联系易建客服，或添加客服好友：15904940838.</view>
+      <view>2、每个用户每天最多提现5次，每人每日提现金额上限5000元。</view>
+      <view>3、提现手续费：</view>
+      <view>(1) 提现金额 ≤ 50元，手续费1元</view>
+      <view>(2) 提现金额 ≤ 200元，手续费2元</view>
+      <view>(3) 提现金额 ≤ 5000元，手续费0.65%</view>
+    </view>
+
+  </view>
+</view>

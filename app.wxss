@@ -1,0 +1,45 @@
+/**app.wxss**/
+@import "/demo/colorui/main.wxss";
+@import "/demo/colorui/icon.wxss";
+.nav{
+  position: fixed;
+  top: 0rpx;
+  width: 100%;
+  padding-top: 30rpx;
+  line-height:140rpx;
+  display: flex;
+  font-size: 18px;
+  background: #fff;
+  z-index: 999999;
+}
+.navLeft{
+  align-items: flex-start;
+}
+.navCenter{
+  align-items: center;
+  text-align: center;
+  flex:1;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 170rpx;
+  box-sizing: border-box;
+} 
+.wx-swiper-dot{
+  border:1rpx solid #fff;
+}
+.page{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #fff;
+}
+.pages{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}

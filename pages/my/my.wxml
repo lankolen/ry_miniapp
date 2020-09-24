@@ -1,0 +1,126 @@
+<!--pages/my/my.wxml-->
+<view>
+  <view class="nav">
+    <view class="navLeft" style="font-size:20px;margin-left:30rpx;font-weight:bold;">
+    我的
+    </view>
+  </view>
+  <view class="container">
+    <view class="containerHeader">
+      <view class="contHeader">
+        <navigator url="/pages/myDetail/myDetail" hover-class="navigator-hover">
+          <view class="headerLeft"></view>
+        </navigator> 
+        <view class="headerCenter">
+          <view class="headername">WANG MR</view>
+          <view style="display:flex;line-height:42rpx;" class="headerTitle">
+            <view>会员等级:</view>
+            <view class="VIP">VIP2</view>            
+          </view>
+        </view>
+        <view class="headerRight">
+          <view class="ColorText">120,000</view>
+          <view class="headerTitle">邀请会员</view>
+        </view>
+      </view>
+      <view class="headerMiddle">
+          <view style="line-height:52rpx;">剩余库存（箱）</view>
+          <view style='font-size:50rpx;margin-top:15rpx;line-height:70rpx;'>1,200</view>
+          <view style="display:flex;line-height:60rpx;">
+            <view style="flex:1;">总库存：1,400</view>
+            <view style='margin-left:30rpx;flex:1;'>总库存：1,400</view>
+             <navigator url="/pages/Memberrenewal/Memberrenewal" hover-class="navigator-hover">
+                 <view class="headRight">
+                  会员充值
+                </view>
+              </navigator> 
+          </view>
+      </view>
+      <view class="headerFooter">
+        <view style="flex:1;">
+          <view>
+            <text>佣金总额</text>
+            <text>150,000</text>
+          </view>         
+          <view class="ColorText">120,000</view>
+          <view >剩余佣金</view>
+        </view>
+        <view class="borderRight"></view>
+        <view style="flex:1;padding-left:50rpx;">
+          <view>
+            <text>积分总额</text>
+            <text>150,000</text>
+          </view>   
+          <view class="ColorText">120,000</view>
+          <view>剩余积分</view>  
+        </view>
+      </view>
+    </view>
+    <view class="containerCenter">
+      <view style='display:flex;padding:15rpx 30rpx;'>
+        <view style="margin-top:10rpx;margin-left:30rpx;line-height:48rpx;flex:1;" class="headername">我的订单</view>
+        <view style="line-height:42rpx;margin-right:30rpx;display:flex;">
+          <view class="">全部订单</view>
+          <view style="margin-left:20rpx">.</view>
+        </view>
+      </view>
+      <view style="display:flex;margin-bottom: 15rpx;">
+        <view class="fl">
+          <view style="">
+            <image style="width:62rpx;height:62rpx;" src="/images/obligation.png" ></image>
+          </view>
+          <view style="line-height:50rpx;">待付款</view>
+        </view>
+         <navigator url="/pages/my/detail" hover-class="navigator-hover">
+            <view class="fl">
+              <view style="">
+                <image style="width:65rpx;height:58rpx;" src="/images/wait.png" ></image>
+              </view>
+              <view style="line-height:50rpx;">待收货</view>
+            </view>          
+         </navigator>
+        <view class="fl">
+          <view style="">
+            <image style="width:57rpx;height:55rpx;" src="/images/done.png" ></image>
+          </view>
+          <view style="line-height:50rpx;">已完成</view>
+        </view>
+      </view>
+    </view>
+    <view class="containerFooter">
+      <view style='padding:10rpx 0rpx;'>
+        <view style="margin-left:30rpx;line-height:48rpx;flex:1;" class="headername">其他服务</view>
+      </view>
+      <view style="display:flex;margin-bottom: 15rpx;margin-top:8rpx;">
+        <view class="fl">
+          <view style="height:80rpx;">
+            <image style="width:62rpx;height:62rpx;" src="/images/kefu.png" ></image>
+          </view>
+          <view style="line-height:50rpx;">专属客服</view>
+        </view>
+        <view class="fl">
+          <navigator url="/pages/friend/friend" hover-class="navigator-hover">
+            <view style="height:80rpx;">
+              <image style="width:65rpx;height:58rpx;" src="/images/tuijian.png" ></image>
+            </view>
+            <view style="line-height:50rpx;">推荐好友</view>
+          </navigator>
+        </view>
+        <view class="fl">
+         <navigator url="/pages/site/location" hover-class="navigator-hover">
+            <view style="height:80rpx;">
+              <image style="width:57rpx;height:55rpx;" src="/images/site.png" ></image>
+            </view>
+            <view style="line-height:50rpx;">地址设置</view>
+          </navigator>
+        </view>
+        <view class="fl">
+          <view style="height:80rpx;">
+            <image style="width:57rpx;height:55rpx;" src="/images/order.png" ></image>
+          </view>
+          <view style="line-height:50rpx;">申请提现</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

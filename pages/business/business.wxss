@@ -1,0 +1,36 @@
+/* pages/business/business.wxss */
+.container{
+  padding:0rpx 58rpx;
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  margin-top: 0rpx;
+}
+.btn{
+  width:633rpx;
+  color:#fff;
+  border-radius:16rpx;
+  height: 96rpx;
+  line-height: 98rpx;
+  text-align: center;
+  font-size: 16px;
+  border:1px solid #4385ff;
+}
+.bg{
+  background:#4385ff;
+}
+.colorText{
+  color:#4385ff;
+}
+.marBot{
+  margin-bottom: 25rpx;
+  text-align: center;
+}
+.text15{
+  font-size:15px;
+}
+.bottom{
+  position: absolute;
+  bottom:80rpx;
+}

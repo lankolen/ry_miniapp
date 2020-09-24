@@ -1,0 +1,22 @@
+/* pages/component/welfare/fareList.wxss */
+.cont{
+  width: 648rpx;
+  height: 258rpx;
+  border-radius:20rpx;
+  background: #477dfb;
+}
+.list{
+  display: flex;
+  margin-left:30rpx;
+}
+.title{
+  line-height: 45rpx;
+  margin-top: 20rpx;
+  font-size: 14px;
+}
+.line{font-size: 14px;margin: 0rpx 10rpx;}
+.text{
+  color:#595feb;
+  margin-right: 10rpx;
+  font-size: 13px;
+}

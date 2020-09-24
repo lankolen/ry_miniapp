@@ -1,0 +1,120 @@
+/* pages/welfare/index.wxss */
+.nav{
+  background: #2e2e2e;
+  color: #fff;
+}
+.navCet{
+  margin-top:170rpx;
+  margin-left:40rpx;
+  margin-bottom: 5rpx;
+  display:flex;
+  z-index: 99999;
+}
+.navHeader{
+  margin-top: 10rpx;
+  background: #fff;
+  width: 60rpx;
+  height:60rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.page{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.heder{
+  background: #2e2e2e;
+}
+.navText{
+  line-height:80rpx;
+  color:#fff;
+}
+.centTitle{
+  padding: 0rpx 27rpx;
+  display: flex;
+  font-size: 33rpx;
+  line-height: 46rpx;
+  margin-bottom: 5rpx;
+  position: relative;
+}
+.line{
+  height: 46rpx;
+  width: 10rpx;
+  background: #f5d693;
+  border-right: 5rpx solid #fff6d3;
+  margin-right: 20rpx;
+}
+.list{
+  border-bottom: 1px solid #efefef;
+  line-height: 68rpx;
+  height: 68rpx;
+  padding:0rpx 65rpx;
+  font-size: 28rpx;
+  display: flex;
+}
+input{
+  flex:1;
+  margin-left: 15rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+.inputColor{
+  color:#999999;
+}
+.listInput{
+  padding:20rpx 0rpx;
+  height: 122rpx;
+  line-height: 40rpx;
+  flex:1;
+  margin-left: 15rpx;
+}
+textarea{
+  height: 122rpx;
+}
+.center{
+  border-bottom: 8rpx solid #efefef;
+}
+.footer{
+  padding: 24rpx 0rpx;
+}
+.lineBottom{
+  margin-right: 44rpx;
+  float: right;
+  position: absolute;
+  right: 0rpx;
+  font-size: 25rpx;
+  border-bottom:  1px solid #7f7e7e;
+}
+.footerList{
+  line-height: 60rpx;
+  height: 60rpx;
+  padding:0rpx 65rpx;
+  font-size: 28rpx;
+  display: flex;
+  position: relative;
+}
+.radio{
+  height:30rpx;
+  width: 30rpx;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #d2d2d2;
+  line-height: 27rpx;
+  text-align: center;
+  margin-top:15rpx;
+  position: absolute;
+  right: 44rpx;
+}
+.btn{
+  height: 98rpx;
+  line-height: 98rpx;
+  width: 635rpx;
+  text-align: center;
+  margin:0rpx 56rpx;
+  margin-top: 50rpx;
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+  border-radius:12rpx;
+  font-size: 35rpx;
+  color:#fff;
+}

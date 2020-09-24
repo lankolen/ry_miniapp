@@ -1,0 +1,51 @@
+/* pages/component/shopList/list.wxss */
+@import "/demo/colorui/icon.wxss";
+.list{
+  border-bottom: 8rpx solid #e6e6e6;
+  width: 100%;
+  padding:15rpx 32rpx;
+  background-color: #fff;      
+  display: flex;          
+  justify-content:space-between;
+}
+.Header{
+  flex:1;
+  display: flex;
+}
+.headerImg{
+  width: 110rpx;
+  height: 110rpx;
+  background-color: black;
+  border-radius:8rpx;
+  margin-right: 20rpx;
+}
+.headerText{
+  font-size: 12px;
+  color:#000;
+  line-height: 40rpx;
+}
+.color-text{
+  color:#556df1;
+}
+.phoneBtn{
+  width:141rpx;
+  height:63rpx;
+  background:#5467f2;
+  border-radius:10rpx;
+  line-height: 63rpx;
+  color:#fff;
+  text-align: center;
+  margin-top: 30rpx;
+  margin-bottom: 17rpx;
+}
+.headerBtn{
+  padding:  3rpx 14rpx;
+  background: #556df1;
+  font-size: 11px;
+  border-radius: 5rpx;
+  color: #fff;
+}
+.site{
+  font-size: 12px;
+  display: flex;
+}

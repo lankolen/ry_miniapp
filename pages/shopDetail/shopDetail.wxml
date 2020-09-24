@@ -1,0 +1,24 @@
+<!--pages/shopDetail/shopDetail.wxml-->
+<view class="page">
+  <view class="header">
+    <view class="left">
+      <view>{{shop.sh_addr}}{{shop.sh_index}}号店{{shop.sh_addr_detail}}</view>
+      <view>店铺名称：{{shop.sh_name}}</view>
+      <view>营业时间：{{shop.sh_open}}-{{shop.sh_close}}</view>
+      <view>门店地址：{{shop.address}}</view>    
+    </view>
+    <view class="right">
+      <view>拨打电话</view>
+    </view>
+  </view>
+  <view class="center">
+    <view>门店照片</view>
+    <view class='img'>
+    </view>
+  </view>
+  <view class="footer">
+    <view>门店地图</view>
+    <view class='img'></view>
+  </view>
+    <view class="btn">确认门店</view>      
+</view>

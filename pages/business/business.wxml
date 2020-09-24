@@ -1,0 +1,13 @@
+<!--pages/business/business.wxml-->
+<view >
+  <view class="container">
+    <view style="height:720rpx;width:100%;background:#fff;">
+      <image src="/images/bus.png" style="width:100%;height:100%"></image>
+    </view>
+    <view class="bottom">
+      <view class="marBot text15">辽宁省大连市</view>
+      <view class="btn bg marBot">选择地区</view>
+      <view class="btn colorText">客服电话</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,61 @@
+<!--pages/component/shopList/list.wxml-->
+<!-- 店铺 -->
+<view class="list" style="height:176rpx;">
+  <view>
+    <view class="Header"> 
+      <view>
+        <view class="headerImg"></view>
+      </view>
+      <view style="flex:1;">
+        <view class="headerText">兴达花园1号店95号楼4单元</view>
+        <view>
+          <view></view>
+          <text class="color-text">185-0421-2164</text>
+        </view>
+        <view>
+          <text class="headerBtn">自提</text>
+        </view>
+      </view>
+    </view>
+    <view class="site">
+      <text>大连市甘井子区红旗中路95号4#303</text>
+      <view></view>
+    </view>
+  </view>
+  <view class="Footer">
+    <view>
+      <view class="phoneBtn shadow">拨打电话</view>
+      <view class="headerText" style="font-size:11px;text-align: center;">800m</view>
+    </view> 
+  </view>
+</view>
+<!-- 配送 -->
+<view class="list" style="height:176rpx;">
+  <view>
+    <view class="Header"> 
+      <view>
+        <view class="headerImg"></view>
+      </view>
+      <view style="flex:1;">
+        <view class="headerText">兴达花园<text style='color:red'>1号店</text>95号楼4单元</view>
+        <view style="display:flex;font-size:600;margin-top: 20rpx;">
+          <view class="cuIcon-time lg text-gray searchIcon"></view>
+          <text style="margin-left:15rpx;">09:00-18:00</text>
+        </view>
+      </view>
+    </view>
+    <view class="site">
+      <text>大连市甘井子区红旗中路95号4#303</text>
+      <navigator url="/pages/shopDetail/shopDetail" hover-class="navigator-hover">
+       <view class="color-text" style="margin-left:10rpx;">查看详情</view>
+      </navigator>
+    </view>
+  </view>
+  <view class="Footer">
+    <view>
+      <view class="phoneBtn shadow">拨打电话</view>
+      <view class="headerText" style="font-size:11px;text-align:left;">距离您 800m</view>
+    </view> 
+  </view>
+</view>
+

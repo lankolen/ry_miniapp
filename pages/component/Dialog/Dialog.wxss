@@ -1,0 +1,3 @@
+/* pages/component/Dialog/Dialog.wxss */
+@import "/demo/colorui/main.wxss";
+@import "/demo/colorui/icon.wxss";

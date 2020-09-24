@@ -1,0 +1,93 @@
+/* pages/my/detail.wxss */
+.navlist{
+  height:80rpx;
+  padding:0rpx 25rpx;
+	display: flex;
+  padding-bottom:2px;
+  justify-content: space-between;
+  border-bottom: 6rpx solid #efefef;
+  border-top: 1px solid #e3e3e3;
+  background: #fff;
+}
+.navflex{
+  height: 78rpx;
+	line-height: 78rpx;
+  text-align: center;
+}
+.nav_click{
+  border-bottom: 1px solid #007AFF;
+  height: 70rpx;
+}
+.listBox{                           
+  height: 364rpx;
+  border-bottom: 8rpx solid #e3e3e3;
+  background: #fff;
+}		
+.listImg{
+	width:125rpx;
+	height:122rpx;
+  background-color: #000000;
+  float: right;
+}
+.listCenter{
+	display: flex;
+	padding:18rpx 45rpx;
+}
+.listLeft{
+	flex:1;
+}
+.leftRight{
+	flex: 1;
+}
+.listTitle{
+	display: flex;
+	border-bottom:  1px solid #e3e3e3;
+  padding: 0rpx 45rpx;
+  line-height: 67rpx;
+}
+.colorBtn{
+	width:153rpx;
+  height:61rpx;
+  float: right;
+	text-align: center;
+	line-height: 61rpx;
+	border-radius: 8rpx;
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+  color: #fff;
+}
+.leftTitle{
+  font-size: 27rpx;
+  line-height: 36rpx;
+}
+.leftText{
+  line-height: 28rpx;
+  font-size: 12px;
+  color: #d1d1d1;
+}
+.btn{
+  border:1px solid #d1d1d1;
+  width:151rpx;
+  height:59rpx;
+	text-align: center;
+	line-height:59rpx;
+  border-radius: 8rpx;
+  background: #fff;
+  font-size: 24rpx;
+}
+.leftNum{
+  line-height: 71rpx;
+}
+.rightNum{
+margin-top: 122rpx;
+line-height: 71rpx;
+}
+.paidBtn{
+	width:153rpx;
+  height:61rpx;
+  float: right;
+	text-align: center;
+	line-height: 61rpx;
+	border-radius: 8rpx;
+  background: #7c7c7c;
+  color: #fff;  
+}

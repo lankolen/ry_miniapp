@@ -1,0 +1,73 @@
+<!--pages/detail/detail.wxml-->
+<view class="pages">
+  <view class="list">
+    <view style="flex:1;">
+      <view> 
+        <text>收货人:</text>
+        <text style="margin-left:10rpx;">王先森</text>
+        <text style="margin-left:10rpx;">18504212121</text>
+      </view>
+      <view>
+        <text>地址：</text>
+        <text style="margin-left:10rpx;"n>甘井子区红旗中路兴达花园91号</text>
+      </view>
+    </view>
+    <view style="">
+      <navigator url="/pages/site/site" hover-class="navigator-hover">
+        <view class="btn">配送</view>
+      </navigator>
+    </view>    
+  </view>
+  <view class="center">
+    <view style="flex:1;">
+      <view class="title">北大荒龙垦麦芽精酿</view>
+      <view class="centText">规格 500ml*9瓶</view>
+      <view class="centText">单位 箱</view>
+      <view class="centText">单价 15元/箱</view>
+    </view>
+    <view style="flex:1;">
+      <view class="centerImg"></view>
+    </view>
+  </view>
+  <view class="centlist" >
+    <view style="flex:1;"> 
+      <text>总价</text> 
+      <text style="color:#dd1520;font-size:30rpx;margin:0rpx 15rpx;">15.00</text> 
+      <text>积分</text> 
+    </view>
+    <view style="flex:1;text-align: right;"> 
+      <text>数量</text> 
+      <text class="cuIcon-move lg text-black" style="margin:0rpx 15rpx;"></text>
+      <text style="font-size:30rpx;margin:0rpx 15rpx;">5</text> 
+      <text class="cuIcon-add lg text-black"></text>
+    </view>
+  </view>
+  <view class="centlist" >
+    <view style="flex:1;">商品库存</view>
+    <view style="flex:1;text-align: right;"> 
+        99
+      <text>箱</text>
+    </view>
+  </view>
+  <view class="centlist" >
+    <view style="flex:1;">期望送达时间</view>
+    <view style="flex:1;text-align: right;"> 默认24小时内急速送达</view>
+  </view>
+  <view class="timelist">
+    <view class="timeText">可选送达时间</view>
+    <view style="display:flex;margin-bottom:21rpx;">
+      <view class="timeBtn timeRight">明日09:00-11:00</view>
+      <view class="timeBtn timeRight">明日11:00-13:00</view>
+      <view class="timeBtn">13:00-15:00</view>
+    </view>
+    <view style="display:flex;">
+      <view class="timeBtn timeRight">15:00-17:00</view>
+      <view class="timeBtn timeRight">17:00-19:00</view>
+      <view class="timeBtn">19:00-21:00</view>
+    </view>
+  </view>
+  <navigator url="/pages/pay/pay" hover-class="navigator-hover">
+    <view class="footBtn">立即支付</view>
+  </navigator>
+
+</view>

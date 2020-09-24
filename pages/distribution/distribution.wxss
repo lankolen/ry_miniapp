@@ -1,0 +1,4 @@
+/* pages/distribution/distribution.wxss */
+.center{
+  overflow: scroll;
+}

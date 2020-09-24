@@ -1,0 +1,9 @@
+<!--demo/pages/component/header/header.wxml-->
+  <view class="nav">
+    <view class="navLeft">
+      <view ></view>
+    </view>
+    <view class="navCenter" style="">
+      {{title}}
+    </view>
+  </view>

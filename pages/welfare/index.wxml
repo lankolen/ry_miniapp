@@ -1,0 +1,64 @@
+<!--pages/welfare/index.wxml-->
+<view class="page">
+  <view class="heder">
+    <view class="nav">
+    <navigator open-type='navigateBack'  hover-class="navigator-hover">
+        <view class="navLeft" style="padding-left:20rpx">
+          <text class="cuIcon-back lg text-gray" ></text>
+        </view>
+      </navigator>
+      <view class="navCenter" style="">易建会员</view>
+    </view>
+    <view class="navCet">
+      <view class="navHeader"></view>
+      <view class="navText">184***88888</view>
+    </view>
+  </view>
+  <view style="margin-top:-10rpx;">
+    <image src="/images/vipback.png" style="height:241rpx;width:100%;"></image>
+  </view>
+  <view class="center">
+    <view class="centTitle">
+      <view class="line"></view>
+      <view>填写会员信息</view>
+    </view>
+    <view class="list">
+      <view>会员姓名：</view>
+      <input type="text"  placeholder-class="inputColor" placeholder="请输入会员姓名"></input>
+    </view>
+    <view class="list">
+      <view>所在区域：</view>
+      <view style="flex:1;">
+        <text class="cuIcon-right lg text-gray" style="float:right;" ></text>
+      </view>
+    </view>
+    <view class="list" style="height:122rpx">
+      <view>设置地址：</view>
+      <textarea class="listInput" placeholder-class="inputColor" placeholder="如：街道、门牌号、小区、楼栋号、单元等"></textarea>
+    </view>        
+  </view>
+  <view class="footer">
+    <view class="centTitle">
+      <view class="line"></view>
+      <view>开通会员</view> 
+      <view class="lineBottom">会员规则</view>     
+    </view>
+    <view class="footerList">
+      <view>VIP1:49元（限购50箱/年）</view>
+      <view class="radio"></view>
+    </view>
+    <view class="footerList">
+      <view>VIP2:99元（限购130箱/年）</view>
+      <view class="radio"></view>
+    </view>
+    <view class="footerList">
+      <view>VIP3:199元会员（限购300箱/年）</view>
+      <view class="radio"></view>
+    </view>
+    <view class="footerList">
+      <view>VIP3:600元购买30箱会员（限购300箱/年）</view>
+      <view class="radio"></view>
+    </view>   
+     <view class="btn">立即激活</view>      
+  </view>
+</view>

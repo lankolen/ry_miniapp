@@ -1,0 +1,10 @@
+<!--pages/friend/friend.wxml-->
+<view class="page">
+  <image src="/images/friend.png" style="width:100%;height:100%"></image>
+  <view class="flexBtn">
+    <navigator url="/pages/my/invite" hover-class="navigator-hover">
+      <view class="btnLeft">邀请记录</view>
+    </navigator>
+    <view class="btnRight">邀请二维码</view>
+  </view>
+</view>

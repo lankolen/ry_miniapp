@@ -1,0 +1,76 @@
+/* pages/welfare/welfare.wxss */
+.navBack{
+  background: #222;
+  color: #fff;
+}
+.navHeader{
+  background: #fff;
+  width: 60rpx;
+  height:60rpx;
+  border-radius: 50%;
+  margin-right: 10rpx;
+}
+.nav{
+  position: fixed;
+  top: 0rpx;
+  width: 100%;
+  /* padding-top: 30rpx; */
+  line-height:135rpx;
+  display: flex;
+  font-size: 18px;
+  background: #fff;
+  z-index: 999999;
+}
+.navText{
+  line-height:60rpx;
+}
+.navFooter{
+  margin: 0rpx 52rpx;
+  width:645rpx;
+  height:121rpx;
+  background: #f5d693;
+  border-radius: 15rpx 15rpx 0rpx 0rpx;
+}
+.navCet{
+  margin-top:164rpx;
+  margin-left:40rpx;
+  margin-bottom: 5rpx;
+  display:flex;
+  z-index: 99999;
+}
+.footerText{
+  color:#b1996b;
+  line-height: 50rpx;
+}
+.headbut{
+  margin-left: 20rpx;
+  background: #b1996b;
+  border-radius: 16rpx;
+  padding: 0rpx 12rpx;
+  height: 27rpx;
+  line-height: 27rpx;
+  color: #f5d693;
+  font-size: 21rpx;
+  margin-top: 10rpx;
+}
+.contNav{width: 100%;}
+.contNavt{
+  flex:1;
+  display: flex;
+  height: 190rpx;
+}
+.container{
+  background: #fff;
+  margin-top: 0rpx;
+  padding:0rpx 50rpx;
+}
+.imgurl{
+  width: 60rpx;
+  height: 60rpx;
+  margin:auto;
+  margin-top: 40rpx;
+}
+.conText{
+  margin-top: 30rpx;
+  text-align: center;
+}

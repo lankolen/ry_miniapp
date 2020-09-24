@@ -1,0 +1,11 @@
+<!--pages/myOrder/myOrder.wxml-->
+<view >
+  <view class="nav">
+    <view class="navLeft"></view>
+    <view class="navCenter" style="">支付中心</view>
+  </view>
+  <view class="container">
+      <view >
+      </view>
+  </view>
+</view>

@@ -1,0 +1,126 @@
+/* pages/pay/pay.wxss */
+.page{
+  border-top:  1px solid #ccc;
+  color:#000000;
+}
+.header{
+  height: 405rpx;
+  padding: 15rpx 54rpx;
+  font-size: 12px;
+  line-height: 60rpx;
+  border-bottom: 8rpx solid #efefef;
+  background: #fff;
+}
+.headertext{
+  font-size: 38rpx;
+  line-height: 80rpx;
+}
+.btn{
+  height: 76rpx;
+  line-height: 76rpx;
+  width: 306rpx;
+  text-align: center;
+  border-radius:12rpx;
+  font-size: 28rpx;
+}
+.btnright{
+  margin-right: 30rpx;
+}
+.gray{
+  background: gray;
+  color: #fff;
+}
+.blue{
+  border:1px solid #4079fe;
+  color: #4079fe;
+}
+.gradient{
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+  color: #4183fb;
+}
+.center{
+  padding:14rpx;
+  height: 476rpx;
+  background: #fff;
+}
+.time{
+  background: #ffb832;
+  line-height: 120rpx;
+  height: 120rpx;
+  border-radius: 12rpx;
+  padding-left: 65rpx;
+  color: #fff;
+  display: flex;
+  margin-bottom: 70rpx;
+}
+.timeText{
+  margin-left: 96rpx;
+  font-size: 45rpx;
+}
+.radius{
+  width: 33rpx;
+  height: 33rpx;
+  border-radius: 50%;
+  border:1px solid #d4d4d4;
+  margin-top: 16rpx;
+  float: right;
+  right: 38rpx;
+  position: absolute;
+}
+.pay .list{
+  display: flex;
+  padding: 0rpx 38rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: flex;
+  position: relative;
+}
+.pay{
+  text-align: center;
+}
+.listleft{
+  width: 240rpx;
+  display: flex;
+}
+.payRadius{
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+}
+.rdio{
+  background: #4183fb;
+}
+.listRight{
+  flex:1;
+  display: flex;
+  flex-direction:row-reverse;
+}
+.rightText{
+  margin-right: 60rpx;
+  font-weight: 501;
+}
+.footer{
+  bottom: 0rpx;
+  height: 102rpx;
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
+.footerBtn{
+  line-height: 102rpx;
+  text-align: center;
+  color: #fff;
+  flex: 1;
+  font-size: 35rpx;
+}
+.linear{
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+}
+.foottext{
+  color: #878787;
+}
+.midde{
+  height: 212rpx;
+  padding-top:60rpx;
+  text-align: center;
+}

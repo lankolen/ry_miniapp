@@ -1,0 +1,81 @@
+/* pages/detail/detail.wxss */
+.list{
+  width: 100%;
+  height: 126rpx;
+  border-bottom: 8rpx solid #efefef;
+  display: flex;
+  padding:20rpx 40rpx;
+  line-height: 45rpx;
+  background: #fff;
+}
+.pages{
+  border-top:1px solid #e3e3e3;
+}
+.btn{
+  height:47rpx;
+  line-height: 47rpx;
+  width: 140rpx;
+  text-align: center;
+  margin-top:17rpx;
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+  border-radius:20rpx;
+  font-size: 24rpx;
+  color:#fff;
+}
+.center{
+  height: 255rpx;
+  background: #fff;
+  padding: 30rpx 50rpx;
+  display: flex;
+}
+.title{
+  line-height: 60rpx;
+}
+.centText{
+  color: #5f5f5f;
+  line-height: 50rpx;
+  font-size: 24rpx;
+}
+.centlist{
+  height:93rpx;
+  border-top:8rpx solid #efefef;
+  padding:0rpx;
+  line-height:80rpx;
+  background: #fff;
+  padding:0rpx 50rpx;
+  display: flex;
+  font-size: 26rpx;
+}
+.timelist{
+  border-top:8rpx solid #efefef;
+  height: 284rpx;
+  background: #fff;
+  padding:0rpx 50rpx;
+}
+.timeText{
+  line-height:83rpx;
+}
+.timeBtn{
+  line-height:62rpx;
+  height: 62rpx;
+  border: 1px solid #1f5bff;
+  border-radius: 10rpx;
+  width: 191rpx;
+  font-size: 11px;
+  text-align: center;
+}
+.timeRight{
+  margin-right: 30rpx;
+}
+.footBtn{
+  height: 98rpx;
+  line-height: 98rpx;
+  width: 635rpx;
+  text-align: center;
+  margin:0rpx 56rpx;
+  margin-top: 50rpx;
+  background: linear-gradient(to bottom right, #4183fb , #575ceb);
+  border-radius:12rpx;
+  font-size: 35rpx;
+  color:#fff;
+}

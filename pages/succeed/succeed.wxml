@@ -1,0 +1,18 @@
+<!--pages/succeed/succeed.wxml-->
+<view class="pages">
+  <view class="container" style="margin-top:0rpx">
+    <view style="height:720rpx;width:100%;text-align: center;">
+      <view class="cuIcon-roundcheckfill lg text-green succ"></view>
+      <view class="centText">支付成功</view>
+      <view>本次订单获得 <text class="colorText">500</text> 积分</view>
+    </view>
+    <view class="bottom">
+      <view class="marBot text15">
+        <view>支付方式</view>
+        <view>微信支付1元+余额支付15元+积分150</view>
+      </view>
+      <view class="btn bg marBot">订单详情(3)</view>
+      <view class="btn colorText">返回主页</view>
+    </view>
+  </view>
+</view>

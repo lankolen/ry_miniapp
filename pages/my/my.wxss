@@ -1,0 +1,103 @@
+/* pages/my/my.wxss */
+.container{
+  margin-top: 155rpx;
+}
+.containerHeader{
+  margin-bottom: 8rpx;
+  background: #fff;
+  width:100%;
+}
+.contHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 18rpx 28rpx;
+}
+.headerLeft{
+    width:118rpx;
+    height:118rpx;    
+    background: grey;
+    border-radius: 50%;
+}
+.headerCenter{
+  flex:1;
+  padding: 10rpx 24rpx;
+}
+.headername{
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  line-height: 54rpx;
+}
+.headerTitle{
+  font-size:12px;
+  color: black;
+}
+.VIP{
+  margin-left: 14rpx;
+  margin-top: 6rpx;
+  height: 30rpx;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  width: 74rpx;
+  background: #575cee;
+  color:#fff;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.headerRight{
+  text-align: center;
+  padding: 10rpx 24rpx;
+  justify-content:flex-end;
+}
+.ColorText{
+  font-size: 20px;
+  color:#575cee;
+  line-height: 54rpx;
+  font-weight: 600;
+}
+.headerMiddle{
+  margin: 18rpx 28rpx;
+  padding: 10rpx 30rpx;
+  padding-right: 0rpx;
+  border-radius: 10rpx;
+  background: #4f6df3;
+  color: #fff;
+  font-size: 13px;
+}
+.headRight{
+  width: 208rpx;
+  height: 46rpx;
+  line-height: 46rpx;
+  background: #575cee;
+  text-align: center;
+  border-radius: 15rpx 0rpx 0rpx 15rpx;
+}
+.headerFooter{
+  margin:20rpx 28rpx;
+  padding-left: 24rpx;
+  display:flex;
+}
+.borderRight{
+  height: 121rpx;
+  width: 1px;
+  background: #efefef;
+}
+.containerCenter{
+  margin: 0rpx 28rpx;
+  padding: 10rpx 0rpx;
+  background: #fff;
+  height:230rpx;
+  width: 100%;
+  margin-bottom: 8rpx;
+}
+.fl{
+  flex:1;
+  text-align: center;
+}
+.containerFooter{
+  padding: 30rpx 34rpx;
+  background: #fff;
+  height:100%;
+  width: 100%;
+}

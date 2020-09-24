@@ -1,0 +1,8 @@
+/* pages/shop/shop.wxss */
+@import "/pages/component/shopList/list.wxss";
+.poster {
+  width: 128rpx;
+  height: 110rpx;
+  margin-right: 20rpx;
+  position: relative;
+}

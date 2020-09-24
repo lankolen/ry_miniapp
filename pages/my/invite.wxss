@@ -1,0 +1,68 @@
+/* pages/my/invite.wxss */
+.header{
+  border-top: 1px solid #efefef;
+  height: 291rpx;
+  border-bottom: 8rpx solid #efefef;
+  font-size:13px;
+}
+.headerTop{
+  height: 222rpx;
+  border-bottom: 1px solid #efefef;
+  padding:0rpx 30rpx;
+  display: flex;
+}
+.headerBtm{
+  height:65rpx;
+  padding:0rpx 40rpx;
+  display:flex;
+  line-height:66rpx;
+  justify-content: space-between;
+}
+.headLeft{
+  flex:1;
+  line-height:50rpx;
+  padding: 20rpx 0rpx;
+}
+.headRight{
+  width: 181rpx;
+}
+.btn{
+  width: 100%;
+  height: 76rpx;
+  margin-top: 106rpx;
+  text-align: center;
+  line-height: 76rpx;
+  background: #5463ee;
+  border-radius: 10rpx;
+  color: #fff;
+  font-size: 13px;
+}
+.headText{
+  line-height: 85rpx;
+  font-size: 44rpx;
+  font-weight: bold;
+}
+.headNav{
+  color: #5463ee;
+  font-weight: bold;
+  border-bottom: 1px solid #5463ee;
+}
+.list{
+  width: 100%;
+  height: 113rpx;
+  border-bottom: 3rpx solid #efefef;
+  display: flex;
+  padding:10rpx 30rpx;
+  line-height: 45rpx;
+}
+.listTitle{
+  font-weight: 600;
+  font-size: 13px;
+}
+.colorText{
+  color: #5463ee;
+}
+.center{
+  height: 100%;
+  overflow:scroll;
+}
