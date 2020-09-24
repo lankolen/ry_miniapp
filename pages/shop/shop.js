@@ -79,5 +79,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  toCall:function(event){    
+    wx.makePhoneCall({
+      phoneNumber: event.currentTarget.dataset.value,
+      success: function () {
+        console.log('成功拨打电话')
+      }
+    })
   }
 })
