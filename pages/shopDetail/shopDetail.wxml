@@ -8,7 +8,7 @@
       <view>门店地址：{{shop.address}}</view>    
     </view>
     <view class="right">
-      <view>拨打电话</view>
+      <view catchtap="toCall" data-value="{{shop.sh_tel}}">拨打电话</view>
     </view>
   </view>
   <view class="center">

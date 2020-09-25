@@ -43,5 +43,6 @@ App({
   globalData: {
     userInfo: null,
     site_url: "https://www.ccxtxw.com",
+    search: ''
   }
 })

@@ -17,13 +17,13 @@ Page({
   
   onLoad: function (options) {
     let that = this;
+
     wx.request({
-      url: app.globalData.site_url + '/miniapp.php/Map/index',
+      url: app.globalData.site_url + '/miniapp.php/Map/index/search/' + app.globalData.search,
       header: {
         'Content-Type': 'application/json'
       },
       success: res => {
-        console.log(res.data.list);
         that.setData({
           //第一个data为固定用法
           list: res.data.list
