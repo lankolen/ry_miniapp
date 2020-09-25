@@ -30,7 +30,7 @@
             </view>
             <view class="site">
               <text>{{item.sh_name}}</text>
-              <navigator url="/pages/shopDetail/shopDetail" hover-class="navigator-hover">
+              <navigator url="/pages/shopDetail/shopDetail?sh_id={{item.sh_id}}" hover-class="navigator-hover">
               <view class="color-text" style="margin-left:10rpx;">查看详情</view>
               </navigator>
             </view>

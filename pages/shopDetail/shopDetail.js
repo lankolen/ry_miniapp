@@ -13,7 +13,7 @@ Page({
   onLoad: function (options) {
     let that = this;
     wx.request({
-      url: app.globalData.site_url + '/miniapp.php/Map/map_select?sh_id=38',
+      url: app.globalData.site_url + '/miniapp.php/Map/map_select?sh_id=' + options.sh_id,
       header: {
         'Content-Type': 'application/json'
       },
