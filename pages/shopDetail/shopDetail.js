@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    site_url :app.globalData.site_url,
+    site_url :app.globalData.site_url
   },
 
   onLoad: function (options) {
@@ -21,7 +21,13 @@ Page({
         console.log(res.data.shop);
         that.setData({
           //第一个data为固定用法
-          shop: res.data.shop
+          shop: res.data.shop,
+          markers: [{
+            iconPath: "/images/marker.png",
+            id: 0,
+            latitude: res.data.shop.sh_y,
+            longitude: res.data.shop.sh_x
+          }]
         })
         }
     })
