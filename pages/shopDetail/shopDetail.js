@@ -18,7 +18,6 @@ Page({
         'Content-Type': 'application/json'
       },
       success: res => {
-        console.log(res.data.shop);
         that.setData({
           //第一个data为固定用法
           shop: res.data.shop,
@@ -29,7 +28,7 @@ Page({
             longitude: res.data.shop.sh_x
           }]
         })
-        }
+      }
     })
   },
 
@@ -87,6 +86,30 @@ Page({
       phoneNumber: event.currentTarget.dataset.value,
       success: function () {
         console.log('成功拨打电话')
+      }
+    })
+  },
+  //确认店铺
+  btn_confirm:function(event){
+    console.log(app.globalData.site_url + '/miniapp.php/Map/shop_select_save?sh_id=' + event.currentTarget.dataset.value);
+    wx.request({
+      url: app.globalData.site_url + '/miniapp.php/Map/shop_select_save',
+      data: {
+        sh_id:event.currentTarget.dataset.value
+      },
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (e) {
+        //获取当前页面的页面栈
+        var page=getCurrentPages();
+        //获取上一个页面的页面栈
+        var lastPage=page[page.length-2];
+        //调用onload事件
+        lastPage.onLoad();
+        wx.navigateBack({
+          delta:1
+        })
       }
     })
   }

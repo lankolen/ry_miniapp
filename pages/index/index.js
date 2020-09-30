@@ -45,11 +45,42 @@ Page({
     })
   },
   onLoad: function () {
+    // 登录
+    wx.login({
+      success: function(res) {
+        let that = this;
+        //请求自己后台获取用户openid
+        wx.request({
+          url: app.globalData.site_url+'/miniapp.php/Common/getOpenid', 
+          data: {
+            code: res.code
+          }, 
+          success: function(response) {
+            var openid = response.data.openid;
+            //可以把openid存到本地，方便以后调用
+            wx.setStorageSync('openid', openid);
+            //如果没有保存，则保存到数据库
+            wx.request({
+              url: app.globalData.site_url+'/miniapp.php/Common/setOpenid', 
+              data: {
+                openid: openid
+              },
+              success:function(res){
+                
+              }
+            })
+          },
+          fail:function(res){
+            console.log(res)
+          }
+        })
+      }
+    });
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
-      })
+      });
     } else if (this.data.canIUse){
       // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
       // 所以此处加入 callback 以防止这种情况

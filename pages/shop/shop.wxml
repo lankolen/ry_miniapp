@@ -7,14 +7,14 @@
   <view class="container">
       <view style="width:100%;padding:0rpx 4rpx;">
         <search></search>
-        
+
         <!-- 配送 -->
         <view class="list" style="height:176rpx;" wx:for="{{list}}" wx:key="id">
           <view>
             <view class="Header"> 
               <view>
                 <view class="headerImg">
-                  <image class='poster' src='https://beer.8v8a.com/Public/cssjsimages/images/shop/{{item.sh_img}}'></image>
+                  <image class='poster' src='{{site_url}}/Public/cssjsimages/images/shop/{{item.sh_img}}'></image>
                 </view>
               </view>
               <view style="flex:1;">

@@ -14,7 +14,7 @@
   <view class="center">
     <view>门店照片</view>
     <view class='img'>
-      <image class='sh_img' src='https://beer.8v8a.com/Public/cssjsimages/images/shop/{{shop.sh_img}}'></image>
+      <image class='sh_img' src='{{site_url}}/Public/cssjsimages/images/shop/{{shop.sh_img}}'></image>
     </view>
   </view>
   <view class="footer">
@@ -24,5 +24,5 @@
       </map>
     </view>
   </view>
-    <view class="btn">确认门店</view>   
+  <view class="btn" catchtap="btn_confirm" data-value="{{shop.sh_id}}">确认门店</view>
 </view>

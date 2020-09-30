@@ -17,7 +17,6 @@ Page({
   
   onLoad: function (options) {
     let that = this;
-
     wx.request({
       url: app.globalData.site_url + '/miniapp.php/Map/index/search/' + app.globalData.search,
       header: {
