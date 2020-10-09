@@ -49,6 +49,5 @@
 <image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/5.jpg" class="img_index"></image>
 <image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/6.jpg" class="img_index"></image>
 
-<navigator url="/pages/detail/detail">
-  <button bindtap="btn_buy" class="btn_buy">点击购买</button>
-</navigator>
+<button bindtap="getPhoneNumber" class="btn_phone" open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">提取电话号码</button>
+<button bindtap="btn_buy" class="btn_buy">点击购买</button>

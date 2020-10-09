@@ -87,7 +87,22 @@
 	border-radius:12rpx;
 	left:5%;
 }
-
+.btn_phone{  
+	position: fixed;
+	bottom: 4.5rem;
+	min-width: 90%;
+  height: 98rpx;
+  line-height: 18rpx;
+  width: 635rpx;
+  line-height: 98rpx;
+  padding-top: 5rpx;
+	z-index:1;
+	background: linear-gradient(to bottom right, #4183fb , #575ceb);
+	color:#fff;
+	font-size: 35rpx;
+	border-radius:12rpx;
+	left:5%;
+}
 .swiper-item-images{
   width: 96%;
 	height: 300rpx;

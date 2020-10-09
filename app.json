@@ -24,7 +24,9 @@
     "pages/site/address",
     "pages/site/location",
     "pages/my/invite",
-    "pages/my/detail"
+    "pages/my/detail",
+    "pages/index/login",
+    "pages/index/register"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -37,26 +39,26 @@
     "selectedColor": "#333",
     "list": [
       {
-        "iconPath":"/images/home.png",
-        "selectedIconPath":"/images/home_action.png",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_action.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "iconPath":"/images/shop.png",
-        "selectedIconPath":"/images/shop_action.png",
+        "iconPath": "/images/shop.png",
+        "selectedIconPath": "/images/shop_action.png",
         "pagePath": "pages/shop/shop",
         "text": "店铺"
       },
       {
-        "iconPath":"/images/welfare.png",
-        "selectedIconPath":"/images/welfare_action.png",
+        "iconPath": "/images/welfare.png",
+        "selectedIconPath": "/images/welfare_action.png",
         "pagePath": "pages/welfare/welfare",
         "text": "福利"
       },
       {
-        "iconPath":"/images/per.png",
-        "selectedIconPath":"/images/per_action.png",
+        "iconPath": "/images/per.png",
+        "selectedIconPath": "/images/per_action.png",
         "pagePath": "pages/my/my",
         "text": "我的"
       }
