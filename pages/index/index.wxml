@@ -1,4 +1,16 @@
 <!--index.wxml-->
+
+<!-- 受权弹框提醒 -->
+<view class="{{class_name}}">
+  <view class='floatContent'>
+  <text>允许授权获取手机号</text>
+    <view class='floatText'>
+      <button  bindtap='cancle' class='btn-cancle'>取消</button>
+      <button  class='btn-cancle' open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">确认</button>
+    </view>
+  </view>
+</view>
+
 <view >
   <view class="nav">
     <view class="navLeft" style="">
@@ -49,5 +61,4 @@
 <image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/5.jpg" class="img_index"></image>
 <image mode="widthFix" src="{{site_url}}/Public/cssjsimages/images/index/6.jpg" class="img_index"></image>
 
-<button bindtap="getPhoneNumber" class="btn_phone" open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">提取电话号码</button>
 <button bindtap="btn_buy" class="btn_buy">点击购买</button>

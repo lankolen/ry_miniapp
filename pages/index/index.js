@@ -6,6 +6,7 @@ Page({
   data: {
     site_url :app.globalData.site_url,
     motto: 'Hello World',
+    class_name:"float hide_view",
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
@@ -39,10 +40,10 @@ Page({
     nextMargin:20
   },
   onLoad: function () {
+    let that = this;
     // 登录
     wx.login({
       success: function(res) {
-        let that = this;
         //请求自己后台获取用户openid
         wx.request({
           url: app.globalData.site_url+'/miniapp.php/Common/getOpenid', 
@@ -63,7 +64,9 @@ Page({
               success:function(res){
                 var user_exist = res.data;
                 if(user_exist == 0){
-                 
+                  that.setData({
+                    class_name:"float show_view",
+                  })
                 }
               }
             })
@@ -124,13 +127,15 @@ Page({
                 session_key: response.data.session_key
               },
               success: function (res_success) {
+                console.log(e.detail)
                 //是否授权，授权通过进入主页面，授权拒绝则停留在登陆界面
-                if (e.detail.errMsg == 'getPhoneNumber:user deny') { //用户点击拒绝
-                  wx.navigateTo({
-                    url: '',
-                  })
-                } else { //允许授权执行跳转
-                  console.log(response.data.openid);
+                if (e.detail.errMsg == 'getPhoneNumber:fail user deny') { //用户点击拒绝
+                  // wx.navigateTo({
+                  //   url: '',
+                  // })
+                } else {
+                  //允许授权执行跳转
+                  console.log(res_success.data.phoneNumber);
                   wx.setStorage({
                     //存储数据
                     key: "phone",
@@ -147,7 +152,9 @@ Page({
                       user_tel: res_success.data.phoneNumber,
                     }, 
                     success: res_settel => {
-                      console.log(res_settel.data)
+                      that.setData({
+                        class_name:"float hide_view",
+                      })
                     }
                   })
                 }
