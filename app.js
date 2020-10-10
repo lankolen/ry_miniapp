@@ -38,6 +38,7 @@ App({
   globalData: {
     userInfo: null,
     site_url: "https://www.ccxtxw.com",
+    openid: '',
     //查询条件，用于查找商铺
     search: ''
   }

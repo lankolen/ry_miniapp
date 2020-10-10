@@ -9,10 +9,12 @@
     <view class="containerHeader">
       <view class="contHeader">
         <navigator url="/pages/myDetail/myDetail" hover-class="navigator-hover">
-          <view class="headerLeft"></view>
+          <view class="headerLeft">
+            <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+          </view>
         </navigator> 
         <view class="headerCenter">
-          <view class="headername">WANG MR</view>
+          <view class="headername">{{userInfo.nickName}}</view>
           <view style="display:flex;line-height:42rpx;" class="headerTitle">
             <view>会员等级:</view>
             <view class="VIP">VIP2</view>            

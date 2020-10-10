@@ -119,6 +119,7 @@ Page({
             code: res.code,
           },
           success: function (response) {
+            console.log(response.data)
             wx.request({
               url: app.globalData.site_url+'/miniapp.php/Common/getPhoneNumber',
               data: {
@@ -135,7 +136,7 @@ Page({
                   // })
                 } else {
                   //允许授权执行跳转
-                  console.log(res_success.data.phoneNumber);
+                  console.log(res_success.data);
                   wx.setStorage({
                     //存储数据
                     key: "phone",
