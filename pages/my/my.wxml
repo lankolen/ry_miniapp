@@ -21,16 +21,16 @@
           </view>
         </view>
         <view class="headerRight">
-          <view class="ColorText">120,000</view>
+          <view class="ColorText">{{data.member_num}}</view>
           <view class="headerTitle">邀请会员</view>
         </view>
       </view>
       <view class="headerMiddle">
           <view style="line-height:52rpx;">剩余库存（箱）</view>
-          <view style='font-size:50rpx;margin-top:15rpx;line-height:70rpx;'>1,200</view>
+          <view style='font-size:50rpx;margin-top:15rpx;line-height:70rpx;'>{{data.remain}}</view>
           <view style="display:flex;line-height:60rpx;">
-            <view style="flex:1;">总库存：1,400</view>
-            <view style='margin-left:30rpx;flex:1;'>总库存：1,400</view>
+            <view style="flex:1;">总库存：{{data.beer_count}}</view>
+            <view style='margin-left:30rpx;flex:1;'>已消费：{{data.goods_num}}</view>
              <navigator url="/pages/Memberrenewal/Memberrenewal" hover-class="navigator-hover">
                  <view class="headRight">
                   会员充值
@@ -42,18 +42,18 @@
         <view style="flex:1;">
           <view>
             <text>佣金总额</text>
-            <text>150,000</text>
+            <text>{{data.user.total_money}}</text>
           </view>         
-          <view class="ColorText">120,000</view>
+          <view class="ColorText">{{data.user.user_money}}</view>
           <view >剩余佣金</view>
         </view>
         <view class="borderRight"></view>
         <view style="flex:1;padding-left:50rpx;">
           <view>
             <text>积分总额</text>
-            <text>150,000</text>
+            <text>{{data.user.total_point}}</text>
           </view>   
-          <view class="ColorText">120,000</view>
+          <view class="ColorText">{{data.user.user_point}}</view>
           <view>剩余积分</view>  
         </view>
       </view>

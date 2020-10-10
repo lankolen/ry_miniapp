@@ -72,7 +72,6 @@ Page({
             })
           },
           fail:function(res){
-            console.log(res)
           }
         })
       }
@@ -119,7 +118,6 @@ Page({
             code: res.code,
           },
           success: function (response) {
-            console.log(response.data)
             wx.request({
               url: app.globalData.site_url+'/miniapp.php/Common/getPhoneNumber',
               data: {
@@ -128,7 +126,6 @@ Page({
                 session_key: response.data.session_key
               },
               success: function (res_success) {
-                console.log(e.detail)
                 //是否授权，授权通过进入主页面，授权拒绝则停留在登陆界面
                 if (e.detail.errMsg == 'getPhoneNumber:fail user deny') { //用户点击拒绝
                   // wx.navigateTo({
@@ -136,7 +133,6 @@ Page({
                   // })
                 } else {
                   //允许授权执行跳转
-                  console.log(res_success.data);
                   wx.setStorage({
                     //存储数据
                     key: "phone",
@@ -167,7 +163,6 @@ Page({
     });
   },
   getUserInfo: function(e) {
-    console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
