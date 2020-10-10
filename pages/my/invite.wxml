@@ -6,11 +6,11 @@
         <view>已获得奖励</view>
         <view class="headText colorText">
           <text style="font-size:12px;">￥</text>
-          <text>1400.00</text>
+          <text>{{data.w_money}}</text>
         </view>
         <view>
           <text>累计佣金:</text>
-          <text>5000.00</text>
+          <text>{{data.sum}}</text>
           <text>元</text>
         </view>
       </view>
@@ -21,38 +21,24 @@
       </view>
     </view>
     <view class="headerBtm">
-      <view class="headNav">全部 (<text>1</text>)</view>
-      <view >一级好友 (<text>1</text>)</view>
-      <view >二级好友 (<text>1</text>)</view>
+      <view class="headNav">全部 (<text>{{data.count_all}}</text>)</view>
+      <view >一级好友 (<text>{{data.count1}}</text>)</view>
+      <view >二级好友 (<text>{{data.count2}}</text>)</view>
     </view>
   </view>
   <view class="center">
-      <view class="list">
+      <view class="list" wx:for="{{data.data}}" wx:key="id">
         <view style="flex:1;">
-          <view class="listTitle">18504212164</view>
+          <view class="listTitle">{{item.user_tel}}</view>
           <view style="color:#6b6b6b">
             <text>注册时间: </text>
-            <text>2020-07-01</text>
+            <text>{{item.user_time}}</text>
           </view>
         </view>
         <view style="flex:1;text-align:right;">
-          <view class="listTitle colorText">开通199会员</view>
-          <view style="color:#6b6b6b" >获得：<text>5.00</text>元</view>
+          <view class="listTitle colorText">开通{{item.fee_member}}会员</view>
+          <view style="color:#6b6b6b" >获得：<text>{{item.rec_money}}</text>元</view>
         </view>
       </view>
-      <view class="list">
-        <view style="flex:1;">
-          <view class="listTitle">18504212164</view>
-          <view style="color:#6b6b6b">
-            <text>注册时间: </text>
-            <text>2020-07-01</text>
-          </view>
-        </view>
-        <view style="flex:1;text-align:right;">
-          <view class="listTitle colorText">开通199会员</view>
-          <view style="color:#6b6b6b" >获得：<text>5.00</text>元</view>
-        </view>
-      </view>
-      
   </view>
 </view>

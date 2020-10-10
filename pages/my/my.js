@@ -25,9 +25,7 @@ Page({
         openid:wx.getStorageSync('openid')
       },
       success: res => {
-        console.log(res.data);
         that.setData({
-          //第一个data为固定用法
           data: res.data
         })
       }
